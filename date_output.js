@@ -13,8 +13,8 @@ function getNameofDay(date) {
         'Wednesday',
         'Thursday',
         'Friday',
-        'Saturday',
-    ]
+        'Saturday'
+    ];
     var currentDayofWeek = date.getDay();
     return dayNames[currentDayofWeek];
 }
@@ -32,10 +32,11 @@ function getNameofMonth(date){
         'September',
         'October',
         'November',
-        'December',
-    ]
+        'December'
+    ];
     var currentMonth = date.getMonth();
     return monthNames[currentMonth];
 }
 
 console.log("Today is: "+getNameofDay(currentDate)+"\nCurrent month is: "+getNameofMonth(currentDate)+"\nMy name is "+name);
+//somecomment
